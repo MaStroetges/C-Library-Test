@@ -1,2 +1,2 @@
-# C-Library-Test
+# C++-Library-Test
 C++ Library Test
