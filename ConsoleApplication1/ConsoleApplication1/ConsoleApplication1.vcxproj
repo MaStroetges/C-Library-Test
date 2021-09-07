@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleApplication1.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="DatenStruktur.cpp" />
     <ClCompile Include="Lib1.cpp" />
     <ClCompile Include="Lib2.cpp" />
