@@ -19,22 +19,26 @@ int main()
 
 	cout << "Getrennte Strukturen:" << endl;
 
-	// objekte von Strukturen erstellen
+	// Objekte von Strukturen erstellen
 	DatenStruktur1_A struktur1 = DatenStruktur1_A(4, 5);
 	DatenStruktur1_B struktur2 = DatenStruktur1_B(2,9);
 
 	// Summieren und ausgeben:
 	cout << lib1.SummiereZahlen(struktur1) << endl;
 	cout << lib2.SummiereZahlen(struktur2) << endl << endl;
-	//// Folgendes verursacht einen Kompilierungsfehler, weil unterschiedliche Strukturen:
+	
+	//// Folgendes verursacht einen Kompilierungsfehler, weil falsche Struktur verwendet:
 //	cout << lib2.SummiereZahlen(struktur1) << endl;
 
+	
+	
 
 	//  Mögliche Lösung: eine Grundbibliothek mit
 	//  der Struktur, die von allen anderen
 	//  Bibliotheken dann eingebunden wird:
 
 	cout << "Gemeinsamme Strukturen (Basisbibliothek):" << endl;
+	
 	DatenStruktur strukturGeneral = DatenStruktur(1, 3);
 
 	// Summieren und ausgeben:
