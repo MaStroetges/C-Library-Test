@@ -14,11 +14,8 @@ int main()
 	// zwei Klassen/"Bibliotheken" als Objekte anlegen:
 	Lib1 lib1;
 	Lib2 lib2;
-
-
-	// ######## Mögliche Lösung: eine Grundbibliothek mit
-	// ######## der Struktur, die von allen anderen
-	// ######## Bibliotheken dann eingebunden wird:
+	
+	// getrennte Strukturen, ein verwenden über die Klassen hinweg ist nicht möglich:
 
 	cout << "Getrennte Strukturen:" << endl;
 
